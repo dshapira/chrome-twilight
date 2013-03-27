@@ -1,6 +1,6 @@
-# Chrome Inspector Twilight Theme
+# Chrome Inspector Twilight Theme ( with thin Toolbar )
 
-This is just my implementation and is probably not 100% what you would expect. The way the Chrome inspector wraps things is different to how code editors do it, so it's not possible to get it _identical_, but we can get a close approximation.
+This is just Remy Bach's implementation with some small modifications from me and is probably not 100% what you would expect. The way the Chrome inspector wraps things is different to how code editors do it, so it's not possible to get it _identical_, but we can get a close approximation.
 
 Includes the Elements, Resources (view js/css/html file), Sources (view js/css/html file), and Console panels; styles for the toolbar (Elements/Resources/Network/etc); and even view source styles (note: not JS/CSS view source though - that's not possible at the moment).
 
@@ -12,25 +12,11 @@ Please note: custom themes are unofficial and may potentially break existing Dev
 
 As always, if you encounter bugs with the DevTools, please [report them][crbug], but disable the theme and test again, first. ;)
 
-## The 3D
-
-I've added a 3D hover effect to the icons in the tabs. To see an example of the effect, see [this codepen][codepen-3d] I made to demonstrate how it works.
-
-If you don't like the 3d tab icon version, I've created a branch without that effect [here][no-3d].
-
 ## Screenshots
 
-Normal Elements panel
+Thin Toolbar
 
-![Elements Panel](https://raw.github.com/remybach/chrome-twilight/master/resources/elements.png)
-
-Dock to right & floating Elements panel
-
-![Dock to Right & Floating Element Panel](https://raw.github.com/remybach/chrome-twilight/master/resources/dock_right-floating.png)
-
-Sources Panel
-
-![Sources Panel](https://raw.github.com/remybach/chrome-twilight/master/resources/sources.png)
+![Elements Panel](https://raw.github.com/dshapira/chrome-twilight/master/resources/thin_toolbar.png)
 
 ## Installation
 
@@ -42,7 +28,7 @@ Sources Panel
 
 ## Credits
 
-I based this file off of the [mnml Theme][mnml] by [Michael P. Pfeiffer][michael-pfeiffer], which itself was based off of [the Tomorrow Theme][tomorrow] by [Ben Truyman][ben-truyman].
+Remy Bach based this file off of the [mnml Theme][mnml] by [Michael P. Pfeiffer][michael-pfeiffer], which itself was based off of [the Tomorrow Theme][tomorrow] by [Ben Truyman][ben-truyman].
 
 
 
