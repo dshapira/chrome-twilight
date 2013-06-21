@@ -14,6 +14,12 @@ table .webkit-line-content ::selection {
 }
 
 /*===== Inspector Chrome =====*/
+#-webkit-web-inspector .split-view-contents-second {
+  background: #222 !important;
+  border-color: rgba(255,255,255,0.15) !important;
+  color: #e5e5e5;
+}
+
 #-webkit-web-inspector #main {
   top: 30px !important;
 }
